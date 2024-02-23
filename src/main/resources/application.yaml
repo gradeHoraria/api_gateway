@@ -1,0 +1,17 @@
+spring:
+    cloud:
+        gateway:
+            routes:
+                - id: AllCourses
+                  uri: http://localhost:3000
+                  predicates:
+                    - Path=/courses
+                  filters:
+                    - SetPath=/
+
+                - id: CourseId
+                  uri: http://localhost:3000
+                  predicates:
+                    - Path=/courses/{courseId}
+                  filters:
+                    - SetPath=/{courseId}
