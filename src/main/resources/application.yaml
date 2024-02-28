@@ -1,17 +1,42 @@
+server:
+  port: 8082
+
 spring:
     cloud:
         gateway:
             routes:
-                - id: AllCourses
-                  uri: http://localhost:3000
+                - id: Courses
+                  uri: http://course-service:3000
                   predicates:
                     - Path=/courses
                   filters:
                     - SetPath=/
 
                 - id: CourseId
-                  uri: http://localhost:3000
+                  uri: http://course-service:3000
                   predicates:
                     - Path=/courses/{courseId}
                   filters:
                     - SetPath=/{courseId}
+
+                - id: token-Courses
+                  uri: http://course-service:3000
+                  predicates:
+                    - Path=/courses/token
+                  filters:
+                    - SetPath=/token
+
+                - id: Teachers
+                  uri: http://teacher-service:8081
+                  predicates:
+                    - Path=/teachers
+
+                - id: TeacherId
+                  uri: http://teacher-service:8081
+                  predicates:
+                    - Path=/teachers/{teacherId}
+
+                - id: token-Teacher
+                  uri: http://teacher-service:8081
+                  predicates:
+                    - Path=/token/
