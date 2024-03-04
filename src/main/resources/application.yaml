@@ -5,38 +5,73 @@ spring:
     cloud:
         gateway:
             routes:
-                - id: Courses
-                  uri: http://course-service:3000
-                  predicates:
-                    - Path=/courses
-                  filters:
-                    - SetPath=/
-
-                - id: CourseId
-                  uri: http://course-service:3000
-                  predicates:
-                    - Path=/courses/{courseId}
-                  filters:
-                    - SetPath=/{courseId}
-
-                - id: token-Courses
+                - id: courses-token
                   uri: http://course-service:3000
                   predicates:
                     - Path=/courses/token
                   filters:
                     - SetPath=/token
 
-                - id: Teachers
+                - id: courses
+                  uri: http://course-service:3000
+                  predicates:
+                    - Path=/courses
+                  filters:
+                    - SetPath=/
+
+                - id: courses-id
+                  uri: http://course-service:3000
+                  predicates:
+                    - Path=/courses/{id}
+                  filters:
+                    - SetPath=/{id}
+
+                - id: teachers-token
+                  uri: http://teacher-service:8081
+                  predicates:
+                    - Path=/teachers/token/get
+                  filters:
+                    - SetPath=/token/get
+
+                - id: teachers
                   uri: http://teacher-service:8081
                   predicates:
                     - Path=/teachers
 
-                - id: TeacherId
+                - id: teachers-id
                   uri: http://teacher-service:8081
                   predicates:
-                    - Path=/teachers/{teacherId}
+                    - Path=/teachers/{id}
 
-                - id: token-Teacher
-                  uri: http://teacher-service:8081
+                - id: subject-token
+                  uri: http://sub-service
                   predicates:
-                    - Path=/token/
+                    - Path=/subjects/token
+                  filters:
+                    - SetPath=/token
+
+                - id: add-subject
+                  uri: http://sub-service
+                  predicates:
+                    - Path=/subjects/add
+
+                - id: edit-subject
+                  uri: http://sub-service
+                  predicates:
+                    - Path=/subjects/edit/{id}
+
+                - id: delete-subject
+                  uri: http://sub-service
+                  predicates:
+                    - Path=/subjects/delete/{id}
+
+                - id: view-subject
+                  uri: http://sub-service
+                  predicates:
+                    - Path=/subjects/view/{id}
+
+                - id: list-subject
+                  uri: http://sub-service
+                  predicates:
+                    - Path=/subjects
+

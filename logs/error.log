@@ -1,0 +1,1282 @@
+2024-03-01 15:56:34 warning: /var/www/html/tmp/cache/ is not writable
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-01 15:56:34 warning: /var/www/html/tmp/cache/persistent/ is not writable
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-01 15:56:34 warning: /var/www/html/tmp/cache/models/ is not writable
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-01 15:56:34 warning: /var/www/html/tmp/cache/ is not writable
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-01 15:56:34 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 172.27.0.1
+2024-03-01 15:56:34 warning: Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 321
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 250
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-03-01 15:56:34 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 321
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 250
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-03-01 15:56:35 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/WebExceptionRenderer.php, line 321
+Cake\Error\Renderer\WebExceptionRenderer->write() /var/www/html/vendor/cakephp/cakephp/src/Error/ExceptionTrap.php, line 250
+Cake\Error\ExceptionTrap->handleException() [internal], line ??
+[main]
+
+2024-03-01 16:41:27 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 172.27.0.1
+2024-03-01 16:42:09 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:42:09 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:43:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:43:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:43:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:43:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:43:32 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:43:32 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:43:33 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:43:33 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:43:48 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:43:48 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:43:52 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/view/1
+Client IP: 172.27.0.1
+2024-03-01 16:43:57 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:43:57 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:44:07 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/edit/1
+Client IP: 172.27.0.1
+2024-03-01 16:44:14 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:44:14 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:44:14 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:44:14 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:58:33 error: [Cake\Http\Client\Exception\NetworkException] cURL Error (7) Failed to connect to keycloak port 8080: Connection refused in /var/www/html/vendor/cakephp/cakephp/src/Http/Client/Adapter/Curl.php on line 67
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:556
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:483
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:438
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:321
+- /var/www/html/src/Controller/TokenController.php:21
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php:20
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.1
+2024-03-01 16:58:35 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:58:35 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:58:46 error: [Cake\Http\Client\Exception\NetworkException] cURL Error (7) Failed to connect to keycloak port 8080: Connection refused in /var/www/html/vendor/cakephp/cakephp/src/Http/Client/Adapter/Curl.php on line 67
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:556
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:483
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:438
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:321
+- /var/www/html/src/Controller/TokenController.php:21
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php:20
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.1
+2024-03-01 16:58:47 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:58:47 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 16:59:12 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 16:59:12 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 17:07:40 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 17:07:40 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 17:12:37 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 17:12:37 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 17:29:14 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 17:29:14 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 19:56:52 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 19:56:52 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 20:03:25 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 20:03:25 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 20:17:05 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-01 20:17:05 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-01 20:18:20 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects
+Client IP: 172.27.0.1
+2024-03-02 05:07:35 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:07:35 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:09:01 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 172.27.0.1
+2024-03-02 05:11:22 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:11:22 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:11:27 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects
+Client IP: 172.27.0.1
+2024-03-02 05:11:45 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:11:45 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:16:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:16:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:00 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:00 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:00 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:00 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:02 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:02 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:02 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:02 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:03 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:03 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:03 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:03 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:04 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:04 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:05 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:05 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:05 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:05 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:06 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:06 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:06 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:06 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:07 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:07 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:07 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:07 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:08 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:08 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:08 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:08 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:09 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:09 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:09 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:09 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:10 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:10 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:10 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:10 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:10 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:10 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:11 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:11 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:30 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:30 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:30 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:30 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:31 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:31 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:31 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:31 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:32 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:32 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:33 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:33 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:33 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:33 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:34 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:34 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:34 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:34 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:35 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:35 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:35 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:35 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:36 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:36 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:36 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:36 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:37 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:37 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:38 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:38 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:21:38 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:21:38 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:24:14 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:24:14 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:41:09 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:41:09 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 05:42:51 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 05:42:51 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 14:42:24 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 14:42:24 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 14:47:47 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 14:47:47 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 14:50:20 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 14:50:20 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 15:14:12 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 172.27.0.1
+2024-03-02 15:14:20 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects
+Client IP: 172.27.0.1
+2024-03-02 15:14:33 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 15:14:33 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 15:18:26 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 15:18:26 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 15:20:18 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 15:20:18 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 15:25:07 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 15:25:07 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 16:49:58 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 16:49:58 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:02:28 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:02:28 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:02:37 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects
+Client IP: 172.27.0.1
+2024-03-02 17:03:20 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects
+Client IP: 172.27.0.1
+2024-03-02 17:10:06 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:10:06 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:10:24 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:10:24 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:10:27 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:10:27 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:11:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:11:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:11:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:11:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:16:18 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:16:18 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:26:51 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:26:51 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:27:39 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:27:39 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:28:01 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:28:01 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 17:54:57 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 17:54:57 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 19:01:17 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 19:01:17 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 19:02:47 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 19:02:47 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 19:03:37 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 19:03:37 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 23:27:13 warning: /var/www/html/tmp/cache/ is not writable
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:13 warning: /var/www/html/tmp/cache/persistent/ is not writable
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:13 warning: /var/www/html/tmp/cache/models/ is not writable
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:13 warning: /var/www/html/tmp/cache/ is not writable
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 433
+Cake\Cache\Engine\FileEngine->_active() /var/www/html/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\Engine\FileEngine->init() /var/www/html/vendor/cakephp/cakephp/src/Cache/CacheRegistry.php, line 88
+Cake\Cache\CacheRegistry->_create() /var/www/html/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 111
+Cake\Core\ObjectRegistry->load() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 160
+Cake\Cache\Cache::_buildEngine() /var/www/html/vendor/cakephp/cakephp/src/Cache/Cache.php, line 235
+Cake\Cache\Cache::pool() /var/www/html/vendor/cakephp/debug_kit/src/Panel/CachePanel.php, line 59
+DebugKit\Panel\CachePanel->initialize() /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php, line 224
+DebugKit\ToolbarService->initializePanels() /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 58
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 23:27:15 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 23:27:15 warning: Unable to emit headers. Headers sent in file=/var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:27:15 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /token
+Client IP: 172.27.0.1
+Trace:
+/var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/webroot/index.php, line 40
+[main]
+
+2024-03-02 23:29:07 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 23:29:07 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-02 23:47:19 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-02 23:47:19 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 14:47:51 error: [Cake\Http\Client\Exception\NetworkException] cURL Error (7) Failed to connect to keycloak port 8080: Connection refused in /var/www/html/vendor/cakephp/cakephp/src/Http/Client/Adapter/Curl.php on line 67
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:556
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:483
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:438
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:321
+- /var/www/html/src/Controller/TokenController.php:21
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.1
+2024-03-04 17:01:14 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:01:14 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:01:42 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:01:42 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:34:24 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:34:24 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:34:40 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:34:40 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:36:24 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:36:24 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:36:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:36:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:36:29 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:36:29 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:37:10 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:37:10 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:37:22 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:37:22 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:37:48 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:37:48 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:38:37 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:38:37 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:38:46 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:38:46 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:39:19 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:39:19 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:39:44 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:39:44 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:39:53 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:39:53 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:40:37 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:40:37 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:40:49 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:40:49 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:41:17 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:41:17 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:42:05 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:42:05 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:42:14 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:42:14 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:42:40 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:42:40 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:42:47 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:42:47 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:42:57 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:42:57 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:43:08 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:43:08 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:58:05 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:58:05 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:58:23 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:58:23 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:58:36 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:58:36 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:58:47 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:58:47 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:59:05 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:59:05 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 17:59:16 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 17:59:16 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:41:59 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:41:59 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:42:17 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:42:17 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:43:26 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:43:26 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:43:38 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:43:38 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:47:12 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:47:31 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:47:44 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:48:20 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:48:49 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects
+Client IP: 172.27.0.8
+2024-03-04 19:49:07 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:49:21 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:49:21 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:50:31 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:50:39 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/add
+Client IP: 172.27.0.8
+2024-03-04 19:50:48 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:50:48 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:51:02 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:51:10 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:51:10 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:51:19 warning: Unable to garbage collect requests table. This is probably due to concurrent requests.
+2024-03-04 19:51:19 warning: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:191
+Stack trace:
+#0 /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(191): PDOStatement->execute(NULL)
+#1 /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php(164): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 /var/www/html/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(41): Cake\Database\Statement\BufferedStatement->execute(NULL)
+#3 /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php(448): Cake\Database\Statement\SqliteStatement->execute()
+#4 /var/www/html/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(70): Cake\Database\Connection->Cake\Database\{closure}()
+#5 /var/www/html/vendor/cakephp/cakephp/src/Database/Connection.php(451): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 /var/www/html/vendor/cakephp/cakephp/src/Database/Query.php(274): Cake\Database\Connection->run(Object(Cake\ORM\Query\DeleteQuery))
+#7 /var/www/html/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php(123): Cake\Database\Query->execute()
+#8 /var/www/html/vendor/cakephp/debug_kit/src/ToolbarService.php(269): DebugKit\Model\Table\RequestsTable->gc()
+#9 /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(67): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php(82): DebugKit\Middleware\DebugKitMiddleware->process(Object(Cake\Http\ServerRequest), Object(Cake\Http\Runner))
+#11 /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php(67): Cake\Http\Runner->handle(Object(Cake\Http\ServerRequest))
+#12 /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php(99): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(App\Application))
+#13 /var/www/html/webroot/index.php(40): Cake\Http\Server->run()
+#14 {main}
+2024-03-04 19:51:19 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:51:19 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:51:30 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:51:30 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:51:53 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/edit/2
+Client IP: 172.27.0.8
+2024-03-04 19:52:02 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:52:02 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:52:22 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/delete/4
+Client IP: 172.27.0.8
+2024-03-04 19:52:31 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 19:52:31 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 19:52:44 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:56:10 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:57:27 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:58:00 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 19:59:46 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 20:01:15 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/add
+Client IP: 172.27.0.8
+2024-03-04 20:01:21 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 20:01:21 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 20:01:33 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 20:01:33 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 20:01:46 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/view/5
+Client IP: 172.27.0.8
+2024-03-04 20:01:52 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/view/5
+Client IP: 172.27.0.8
+2024-03-04 20:21:39 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 20:21:50 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 20:25:26 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 21:05:02 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 21:05:24 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 21:05:24 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 21:05:48 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 21:05:48 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 21:05:56 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 21:05:56 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 21:06:22 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 21:45:23 error: [Cake\Http\Exception\ForbiddenException] Token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 21:56:09 error: [Cake\Http\Exception\ForbiddenException] http://sub-service/token in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 25
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 22:03:31 error: [Cake\Http\Client\Exception\NetworkException] cURL Error (7) Failed to connect to keycloak port 8080: Connection refused in /var/www/html/vendor/cakephp/cakephp/src/Http/Client/Adapter/Curl.php on line 67
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:556
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:483
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:438
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:321
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php:51
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php:31
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php:18
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /subjects/add
+Client IP: 172.27.0.8
+2024-03-04 22:23:10 error: [Cake\Http\Exception\ForbiddenException] token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 22:23:27 error: [Cake\Http\Exception\ForbiddenException] token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 22:24:40 error: [Cake\Http\Exception\ForbiddenException] token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /
+Client IP: 172.27.0.5
+2024-03-04 22:25:13 error: [Cake\Http\Exception\ForbiddenException] token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.5
+2024-03-04 22:25:56 error: [Cake\Http\Exception\ForbiddenException] token inválido in /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php on line 24
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 22:37:18 error: [Cake\Http\Client\Exception\NetworkException] cURL Error (7) Failed to connect to keycloak port 8080: Connection refused in /var/www/html/vendor/cakephp/cakephp/src/Http/Client/Adapter/Curl.php on line 67
+Stack Trace:
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:556
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:483
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:438
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Client.php:321
+- /var/www/html/src/Controller/TokenController.php:21
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:172
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/PermissionsMiddleware.php:20
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Routing/Middleware/CORSMiddleware.php:15
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/webroot/index.php:40
+- [main]:
+
+Request URL: /token
+Client IP: 172.27.0.8
+2024-03-04 22:37:19 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 22:37:19 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 22:37:33 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 22:37:33 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 22:38:24 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 22:38:24 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 22:38:42 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 22:38:42 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database
+2024-03-04 22:39:00 warning: Unable to save request. This is probably due to concurrent requests.
+2024-03-04 22:39:00 warning: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database

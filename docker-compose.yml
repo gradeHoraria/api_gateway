@@ -8,6 +8,7 @@ services:
     ports:
       - "8082:8082"
     depends_on:
+      - sub-service
       - course-service
       - teacher-service
     networks:
@@ -41,6 +42,20 @@ services:
     networks:
       - gradeHoraria
 
+  sub-service:
+    image: cake-web
+    ports:
+      - "8765:80"
+    depends_on:
+      - db_mysql
+      - keycloak
+    volumes:
+      - /var/www/html
+      - ./logs:/var/www/html/logs
+      - ./cache:/var/www/html/tmp/cache
+    networks:
+      - gradeHoraria
+
   keycloak:
     image: quay.io/keycloak/keycloak:23.0.7
     ports:
@@ -65,6 +80,18 @@ services:
       - ./sql:/docker-entrypoint-initdb.d
     networks:
       - gradeHoraria   
+
+  db_mysql:
+    image: mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+      MYSQL_DATABASE: sggh_subjects
+    volumes:
+      - ./init_create_table.sql:/docker-entrypoint-initdb.d/init_create_table.sql
+    ports:
+      - "3306:3306"
+    networks:
+    - gradeHoraria
 
 networks:
   gradeHoraria:
