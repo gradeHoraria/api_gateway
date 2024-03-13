@@ -74,4 +74,3 @@ spring:
                   uri: http://sub-service
                   predicates:
                     - Path=/subjects
-
